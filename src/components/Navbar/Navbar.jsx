@@ -1,5 +1,5 @@
 import React from "react";
-import { RiMenu3Line, RiCloseLin } from 'react-icons/ri';
+
 import "./Navbar.css" ;
 import Logo from '../../assets/Logo.JPEG';
 const Navbar = () => {
