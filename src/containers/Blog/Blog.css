@@ -1,0 +1,34 @@
+
+.portfolio__header-content__blog {
+  border-radius: 10px 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  background: #995FA3;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-left: 2em;
+  outline: none;
+  color: #fff;
+
+}
+
+.portfolio__header-content__blog button {
+  flex: 0.6;
+  width: 5em;
+  height: 90px;
+  background: #ED6A5A;
+  font-family: var(--font-family);
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFF;
+  cursor: pointer;
+  outline: none;
+  padding: 0 1rem;
+  border-radius: 20px 20px;
+}

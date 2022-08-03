@@ -1,0 +1,17 @@
+.about-dharini-text {
+    color: white; 
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#green-bunny-container {
+    height: 20em;
+}
+
+#green-bunny {
+    height: 100%;
+}

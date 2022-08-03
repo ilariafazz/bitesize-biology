@@ -1,0 +1,52 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.explanation-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2em;
+}
+
+#bunny {
+    height: 35%;
+    width: 35%;
+    margin-left: 2em;
+}
+
+.header-text {
+    color: white;
+margin-bottom: 2em;
+}
+
+.regular-text {
+color: white; 
+
+}
+
+.about-ilaria {
+    height: 20em;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    color: white; 
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#pink-bunny {
+  object-fit: scale-down;
+  
+}
+
+.about-ilaria-bunny {
+  width: 100%;
+}
