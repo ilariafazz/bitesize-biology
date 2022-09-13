@@ -23,17 +23,28 @@
 
 .header-text {
     color: white;
-margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 .regular-text {
 color: white; 
+display: flex; 
+}
 
+#about-ilaria-bunny {
+  height: 18em;
+}
+
+@media screen and (max-width: 1050px) {
+  .regular-text {
+      flex-direction: column;
+  }
 }
 
 .about-ilaria {
-    height: 20em;
     display: flex; 
+    padding-top: 3em;
+    padding-bottom: 3em;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
@@ -42,11 +53,30 @@ color: white;
     margin-right: 2em;
 }
 
-#pink-bunny {
-  object-fit: scale-down;
-  
+@media screen and (max-width: 650px) {
+  .about-ilaria {
+    display: flex; 
+  }
 }
 
-.about-ilaria-bunny {
-  width: 100%;
+@media screen and (max-width: 550px) {
+  .header {
+     flex-direction: column;
+  }
+  .explanation-box {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  .header-container {
+    display: flex;
+  }
+  .about-ilaria {
+    flex-direction: column-reverse;
+  }
+
+  #about-ilaria-bunny {
+    height: 22%;
+    width: 22%;
+    padding-bottom: 1em;
+  }
 }

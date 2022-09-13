@@ -2,16 +2,25 @@
     color: white; 
     margin-left: 2em;
     margin-right: 2em;
-    height: 20em;
     display: flex;
+    padding-bottom: 2em;
     flex-direction: row;
     align-items: center;
 }
 
-#green-bunny-container {
+#green-bunny {
     height: 20em;
 }
 
-#green-bunny {
-    height: 100%;
+@media screen and (max-width: 550px) {
+    .about-dharini-text {
+        flex-direction: column;
+    }
+    #green-bunny-container {
+        height: 9em;
+    }
+    #green-bunny {
+        height: 22%;
+        width: 22%;
+    }
 }
